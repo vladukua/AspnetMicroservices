@@ -84,7 +84,7 @@ namespace Discount.Api.Repositories
 
         private static IDbConnection OpenDbConnection(string connectionString)
         {
-            return new NpgsqlConnection(connectionString));
+            return new NpgsqlConnection(connectionString);
         }
     }
 }
